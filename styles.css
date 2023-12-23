@@ -29,14 +29,14 @@
 
 .tic-tac-toe{
     width: 90%;
-
     max-width: 20rem ;
     aspect-ratio: 1/1;
     border: 1px solid rgba(121, 121, 110, 0.6);
     background-color: rgba(121, 121, 110, 0.6);
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    padding: 2rem ;
+    padding: 2rem ; 
+    margin-bottom: 10%;
     border-radius: 2rem;
 }
 
@@ -77,7 +77,7 @@
    cursor: pointer;
    background-color: rgba(255,255,255,0.15);
    border: 1px solid rgba(255,255,255,0.15);;
-   /* display: none; */
+   display: none;
 
 }
 
